@@ -1,0 +1,10 @@
+﻿TODO list (no particular order):
+
+- Great, we can play the drill. Can we stop it though?
+- Start animation at any set
+- Adjust performer label text size (and perhaps other settings like color and boldness as well)
+- Edit field excess stuff in the FieldSettingsPanel
+- Perhaps play the show music along with the drill?
+- Fix the dot books to draw dots that go beyond the field bounds
+- Add the count slider, and the count input (so you can view the picture at a specific count)
+- Reposition the performer labels to make them easier to read (Pyware does it above or below the dot (below by default))
