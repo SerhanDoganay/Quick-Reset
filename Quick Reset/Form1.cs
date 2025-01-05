@@ -161,7 +161,7 @@ namespace Quick_Reset
             fieldPanel.DrawDots(0);
             programPanel.Populate();
 
-            File.WriteAllLines("C:/Users/powme/Downloads/res.txt", Drill.instance.RankPerformersByDifficulty());
+            //File.WriteAllLines("C:/Users/powme/Downloads/res.txt", Drill.instance.RankPerformersByDifficulty());
 
             //VideoExporter temp = new VideoExporter("C:/Users/powme/Downloads/ita.mp4", 30, "C:/Users/powme/Downloads/chhs_drill/2022intothinair/ita.mp3");
             //VideoExporter temp = new VideoExporter("C:/Users/powme/Downloads/spiritshow.mp4", 30, "C:/Users/powme/Downloads/chhs_drill/2020spiritshow/spiritshow.mp3");

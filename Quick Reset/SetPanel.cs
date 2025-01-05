@@ -86,11 +86,11 @@ namespace Quick_Reset
         }
         private void SaveImage_Click(object sender, EventArgs e)
         {
-            Form1.instance.fieldPanel.compositeImage.Save("C:/Users/powme/Downloads/" + Drill.instance.GetCurrentSetName() + ".png");
+            //Form1.instance.fieldPanel.compositeImage.Save("C:/Users/powme/Downloads/" + Drill.instance.GetCurrentSetName() + ".png");
         }
         private void MakeVideo_Click(object sender, EventArgs e)
         {
-            VideoExporter temp = new VideoExporter("C:/Users/powme/Downloads/pop.mp4", 30, "C:/Users/powme/Downloads/chhs_drill/2023pop/oldpop3.mp3");
+            //VideoExporter temp = new VideoExporter("C:/Users/powme/Downloads/pop.mp4", 30, "C:/Users/powme/Downloads/chhs_drill/2023pop/oldpop3.mp3");
             //VideoExporter temp = new VideoExporter("C:/Users/powme/Downloads/ita.mp4", 30);
         }
     }

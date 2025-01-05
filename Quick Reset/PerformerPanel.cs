@@ -471,7 +471,7 @@ namespace Quick_Reset
                 }
 
                 //END
-                img.Save("C:/Users/powme/Downloads/" + p.label + "/" + s.set + ".png");
+                //img.Save("C:/Users/powme/Downloads/" + p.label + "/" + s.set + ".png");
 
                 //throw new Exception("First, figure out where to draw the graphics");
                 Form1.instance.fieldPanel.CreateGraphics().DrawImage(img, new Point(0, 0));
@@ -483,7 +483,7 @@ namespace Quick_Reset
             {
                 using (Image img = DotBookMaker.MakeDotBook(p, i))
                 {
-                    img.Save("C:/Users/powme/Downloads/" + p.label + "/" + Drill.instance.sets[i].set + ".png");
+                    //img.Save("C:/Users/powme/Downloads/" + p.label + "/" + Drill.instance.sets[i].set + ".png");
 
                     Form1.instance.fieldPanel.CreateGraphics().DrawImage(img, new PointF(0, 0));
                 }
